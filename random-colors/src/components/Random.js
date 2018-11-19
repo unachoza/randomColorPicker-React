@@ -49,6 +49,9 @@ class Random extends React.Component {
     return (
       <div>
         <h1 className={this.isLight() ? 'white' : 'black'}>
+        Random colors ! <br/>
+      
+
         Your color is {this.formatColor(this.state.color)}
 
         </h1>
